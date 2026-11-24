@@ -1,0 +1,30 @@
+# Gradle / 빌드 산출물
+.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.iml
+
+# Android Studio / IDE 설정 (로컬 경로·사용자명이 들어 있어 커밋하지 않음)
+.idea/
+
+# 로컬 환경 설정 (SDK 경로 등)
+local.properties
+
+# 빌드 결과물, 서명 키
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# 환경 변수 / 비밀 값
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API keys (do not commit)
+app/src/main/res/values/api_key.xml

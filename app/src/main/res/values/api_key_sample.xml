@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  API 키 샘플 파일입니다.
+  같은 폴더의 api_key.xml 이 없다면 이 파일을 api_key.xml 로 복사한 뒤,
+  아래 <resources> 예시를 복사해 본인 API 키를 입력하세요. (api_key.xml 은 .gitignore 대상)
+
+  ※ 이 파일은 빌드에 포함되므로 <string> 이 주석 해제된 채로 api_key.xml 과 함께 있으면
+     "Duplicate resources" 오류가 납니다. 이 파일 자체는 주석 상태로 두세요.
+
+  <resources>
+      <string name="naver_client_id">YOUR_NAVER_MAPS_CLIENT_ID</string>
+      <string name="its_cctv_key">YOUR_ITS_API_KEY</string>
+      <string name="jeju_cctv_key">YOUR_JEJU_DATA_GO_KR_KEY</string>
+      <string name="seoul_api_key">YOUR_SEOUL_OPEN_DATA_KEY</string>
+  </resources>
+-->
+<resources />
